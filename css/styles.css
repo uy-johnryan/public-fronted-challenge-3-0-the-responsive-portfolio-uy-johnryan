@@ -116,21 +116,21 @@
     border-radius: 10px;
   }
 
-  .hero-grid {
+  .skills-grid {
     display: grid;
-    gap: 16px;
+    gap: 110px;   /*creates a gap betwewen the skills text and photo*/
     align-items: start;
   }
 
   @media (min-width: 800px) {
-    .hero-grid {
-      grid-template-columns: 1.1fr 0.9fr;
+    .skills-grid {
+      grid-template-columns: 0.7fr 1fr;
       align-items: center;
     }
   }
+    
 
-
-  .tag-list {
+  .tag-list { 
     list-style: none;
     padding: 0;
     margin: 0;
